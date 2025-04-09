@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -45,6 +45,46 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		631661982D82B7EE00DE1C19 /* WKWebView+Inspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 631661972D82B7EE00DE1C19 /* WKWebView+Inspectable.m */; };
+		631661992D82B7EE00DE1C19 /* WKWebView+Inspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 631661972D82B7EE00DE1C19 /* WKWebView+Inspectable.m */; };
+		6377576F2D71B982006C8D68 /* HelpshiftCocos2dx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 637757662D71B982006C8D68 /* HelpshiftCocos2dx.mm */; };
+		637757702D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 637757682D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm */; };
+		637757712D71B982006C8D68 /* HelpshiftUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6377576D2D71B982006C8D68 /* HelpshiftUtil.mm */; };
+		637757722D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6377576B2D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm */; };
+		637757732D71B982006C8D68 /* HelpshiftLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 637757692D71B982006C8D68 /* HelpshiftLog.mm */; };
+		637757742D71B982006C8D68 /* HelpshiftCocos2dx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 637757662D71B982006C8D68 /* HelpshiftCocos2dx.mm */; };
+		637757752D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 637757682D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm */; };
+		637757762D71B982006C8D68 /* HelpshiftUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6377576D2D71B982006C8D68 /* HelpshiftUtil.mm */; };
+		637757772D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6377576B2D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm */; };
+		637757782D71B982006C8D68 /* HelpshiftLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 637757692D71B982006C8D68 /* HelpshiftLog.mm */; };
+		6377577C2D71B9B8006C8D68 /* HelpshiftX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637757792D71B99B006C8D68 /* HelpshiftX.xcframework */; };
+		6377577D2D71B9B8006C8D68 /* HelpshiftX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 637757792D71B99B006C8D68 /* HelpshiftX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6377577E2D71B9BC006C8D68 /* HelpshiftX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637757792D71B99B006C8D68 /* HelpshiftX.xcframework */; };
+		6377577F2D71B9BC006C8D68 /* HelpshiftX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 637757792D71B99B006C8D68 /* HelpshiftX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		639E17172D6EDC060078C949 /* CocosUIHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E170E2D6EDC060078C949 /* CocosUIHelpers.cpp */; };
+		639E17182D6EDC060078C949 /* IdentityUserScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17122D6EDC060078C949 /* IdentityUserScene.cpp */; };
+		639E17192D6EDC060078C949 /* LegacyUserScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17142D6EDC060078C949 /* LegacyUserScene.cpp */; };
+		639E171A2D6EDC060078C949 /* TemplateScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17162D6EDC060078C949 /* TemplateScene.cpp */; };
+		639E171B2D6EDC060078C949 /* DropdownMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17102D6EDC060078C949 /* DropdownMenu.cpp */; };
+		639E171C2D6EDC060078C949 /* CocosUIHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E170E2D6EDC060078C949 /* CocosUIHelpers.cpp */; };
+		639E171D2D6EDC060078C949 /* IdentityUserScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17122D6EDC060078C949 /* IdentityUserScene.cpp */; };
+		639E171E2D6EDC060078C949 /* LegacyUserScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17142D6EDC060078C949 /* LegacyUserScene.cpp */; };
+		639E171F2D6EDC060078C949 /* TemplateScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17162D6EDC060078C949 /* TemplateScene.cpp */; };
+		639E17202D6EDC060078C949 /* DropdownMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639E17102D6EDC060078C949 /* DropdownMenu.cpp */; };
+		639E17432D6EDD970078C949 /* iOSHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 639E17422D6EDD970078C949 /* iOSHelper.mm */; };
+		639E17442D6EDD970078C949 /* iOSHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 639E17422D6EDD970078C949 /* iOSHelper.mm */; };
+		639E17512D6EDE2D0078C949 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174B2D6EDE2D0078C949 /* bg.png */; };
+		639E17522D6EDE2D0078C949 /* unchecked-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174F2D6EDE2D0078C949 /* unchecked-50.png */; };
+		639E17532D6EDE2D0078C949 /* bgfull.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174C2D6EDE2D0078C949 /* bgfull.png */; };
+		639E17542D6EDE2D0078C949 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174D2D6EDE2D0078C949 /* checked.png */; };
+		639E17552D6EDE2D0078C949 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174E2D6EDE2D0078C949 /* unchecked.png */; };
+		639E17562D6EDE2D0078C949 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E17502D6EDE2D0078C949 /* whitebg.png */; };
+		639E17572D6EDE2D0078C949 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174B2D6EDE2D0078C949 /* bg.png */; };
+		639E17582D6EDE2D0078C949 /* unchecked-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174F2D6EDE2D0078C949 /* unchecked-50.png */; };
+		639E17592D6EDE2D0078C949 /* bgfull.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174C2D6EDE2D0078C949 /* bgfull.png */; };
+		639E175A2D6EDE2D0078C949 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174D2D6EDE2D0078C949 /* checked.png */; };
+		639E175B2D6EDE2D0078C949 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E174E2D6EDE2D0078C949 /* unchecked.png */; };
+		639E175C2D6EDE2D0078C949 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E17502D6EDE2D0078C949 /* whitebg.png */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -95,6 +135,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		639E17472D6EDDC90078C949 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6377577D2D71B9B8006C8D68 /* HelpshiftX.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E174A2D6EDDCD0078C949 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6377577F2D71B9BC006C8D68 /* HelpshiftX.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A88B2631FC3D9C9005C14AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
@@ -109,7 +174,7 @@
 		1AF87B5D1F6F77D6007BE51C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1AF87B5E1F6F77D6007BE51C /* RootViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* SDKXCococsExample-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDKXCococsExample-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* HelpshiftDemoCocos3x-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelpshiftDemoCocos3x-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
@@ -127,11 +192,45 @@
 		503AE10417EB98FF00D1A890 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = mac/Prefix.pch; sourceTree = "<group>"; };
 		503AE11117EB99EE00D1A890 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		503AE11A17EB9C5A00D1A890 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		5087E76F17EB910900C73F5D /* SDKXCococsExample-desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDKXCococsExample-desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5087E76F17EB910900C73F5D /* HelpshiftDemoCocos3x-desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelpshiftDemoCocos3x-desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5087E78817EB974C00C73F5D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5087E78A17EB975400C73F5D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		631661762D801D9E00DE1C19 /* HelpshiftUserLoginFailureReason.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftUserLoginFailureReason.h; sourceTree = "<group>"; };
+		631661962D82B7EE00DE1C19 /* WKWebView+Inspectable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Inspectable.h"; sourceTree = "<group>"; };
+		631661972D82B7EE00DE1C19 /* WKWebView+Inspectable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Inspectable.m"; sourceTree = "<group>"; };
+		636384A02D704B74001D01AD /* HelpshiftDemoCocos3x-mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HelpshiftDemoCocos3x-mobile.entitlements"; sourceTree = "<group>"; };
+		637757612D71B982006C8D68 /* HelpshiftCocos2dx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftCocos2dx.h; sourceTree = "<group>"; };
+		637757622D71B982006C8D68 /* HelpshiftEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftEvent.h; sourceTree = "<group>"; };
+		637757632D71B982006C8D68 /* HelpshiftLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftLog.h; sourceTree = "<group>"; };
+		637757662D71B982006C8D68 /* HelpshiftCocos2dx.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelpshiftCocos2dx.mm; sourceTree = "<group>"; };
+		637757672D71B982006C8D68 /* HelpshiftCocos2dxDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftCocos2dxDelegate.h; sourceTree = "<group>"; };
+		637757682D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelpshiftCocos2dxDelegate.mm; sourceTree = "<group>"; };
+		637757692D71B982006C8D68 /* HelpshiftLog.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelpshiftLog.mm; sourceTree = "<group>"; };
+		6377576A2D71B982006C8D68 /* HelpshiftProactiveConfigCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftProactiveConfigCollector.h; sourceTree = "<group>"; };
+		6377576B2D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelpshiftProactiveConfigCollector.mm; sourceTree = "<group>"; };
+		6377576C2D71B982006C8D68 /* HelpshiftUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftUtil.h; sourceTree = "<group>"; };
+		6377576D2D71B982006C8D68 /* HelpshiftUtil.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelpshiftUtil.mm; sourceTree = "<group>"; };
+		637757792D71B99B006C8D68 /* HelpshiftX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HelpshiftX.xcframework; path = "../../../../../../sdkx-cocos2dx/builds/helpshiftx-plugin-cocos2dx-v10.4.0/helpshiftx-cocos/iOS/sdk/HelpshiftX.xcframework"; sourceTree = "<group>"; };
+		639E170D2D6EDC060078C949 /* CocosUIHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocosUIHelpers.h; sourceTree = "<group>"; };
+		639E170E2D6EDC060078C949 /* CocosUIHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CocosUIHelpers.cpp; sourceTree = "<group>"; };
+		639E170F2D6EDC060078C949 /* DropdownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownMenu.h; sourceTree = "<group>"; };
+		639E17102D6EDC060078C949 /* DropdownMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DropdownMenu.cpp; sourceTree = "<group>"; };
+		639E17112D6EDC060078C949 /* IdentityUserScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdentityUserScene.h; sourceTree = "<group>"; };
+		639E17122D6EDC060078C949 /* IdentityUserScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IdentityUserScene.cpp; sourceTree = "<group>"; };
+		639E17132D6EDC060078C949 /* LegacyUserScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegacyUserScene.h; sourceTree = "<group>"; };
+		639E17142D6EDC060078C949 /* LegacyUserScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LegacyUserScene.cpp; sourceTree = "<group>"; };
+		639E17152D6EDC060078C949 /* TemplateScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateScene.h; sourceTree = "<group>"; };
+		639E17162D6EDC060078C949 /* TemplateScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateScene.cpp; sourceTree = "<group>"; };
+		639E17412D6EDD970078C949 /* iOSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSHelper.h; sourceTree = "<group>"; };
+		639E17422D6EDD970078C949 /* iOSHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iOSHelper.mm; sourceTree = "<group>"; };
+		639E174B2D6EDE2D0078C949 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		639E174C2D6EDE2D0078C949 /* bgfull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgfull.png; sourceTree = "<group>"; };
+		639E174D2D6EDE2D0078C949 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		639E174E2D6EDE2D0078C949 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		639E174F2D6EDE2D0078C949 /* unchecked-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked-50.png"; sourceTree = "<group>"; };
+		639E17502D6EDE2D0078C949 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -160,6 +259,7 @@
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
 				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
+				6377577C2D71B9B8006C8D68 /* HelpshiftX.xcframework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
@@ -174,6 +274,7 @@
 				1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */,
 				5087E76717EB910900C73F5D /* libz.dylib in Frameworks */,
 				8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */,
+				6377577E2D71B9BC006C8D68 /* HelpshiftX.xcframework in Frameworks */,
 				503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */,
 				5087E78B17EB975400C73F5D /* OpenGL.framework in Frameworks */,
 				5087E78917EB974C00C73F5D /* AppKit.framework in Frameworks */,
@@ -191,8 +292,8 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* SDKXCococsExample-mobile.app */,
-				5087E76F17EB910900C73F5D /* SDKXCococsExample-desktop.app */,
+				1D6058910D05DD3D006BFB54 /* HelpshiftDemoCocos3x-mobile.app */,
+				5087E76F17EB910900C73F5D /* HelpshiftDemoCocos3x-desktop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +311,11 @@
 		1AF87B461F6F77D6007BE51C /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				637757602D71B966006C8D68 /* Helpshift */,
+				639E17412D6EDD970078C949 /* iOSHelper.h */,
+				639E17422D6EDD970078C949 /* iOSHelper.mm */,
+				631661962D82B7EE00DE1C19 /* WKWebView+Inspectable.h */,
+				631661972D82B7EE00DE1C19 /* WKWebView+Inspectable.m */,
 				1A88B2631FC3D9C9005C14AE /* Images.xcassets */,
 				1AF87B471F6F77D6007BE51C /* AppController.h */,
 				1AF87B481F6F77D6007BE51C /* AppController.mm */,
@@ -227,6 +333,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				636384A02D704B74001D01AD /* HelpshiftDemoCocos3x-mobile.entitlements */,
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
@@ -268,6 +375,12 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				639E174B2D6EDE2D0078C949 /* bg.png */,
+				639E174C2D6EDE2D0078C949 /* bgfull.png */,
+				639E174D2D6EDE2D0078C949 /* checked.png */,
+				639E174E2D6EDE2D0078C949 /* unchecked.png */,
+				639E174F2D6EDE2D0078C949 /* unchecked-50.png */,
+				639E17502D6EDE2D0078C949 /* whitebg.png */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -281,6 +394,16 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				639E170D2D6EDC060078C949 /* CocosUIHelpers.h */,
+				639E170E2D6EDC060078C949 /* CocosUIHelpers.cpp */,
+				639E170F2D6EDC060078C949 /* DropdownMenu.h */,
+				639E17102D6EDC060078C949 /* DropdownMenu.cpp */,
+				639E17112D6EDC060078C949 /* IdentityUserScene.h */,
+				639E17122D6EDC060078C949 /* IdentityUserScene.cpp */,
+				639E17132D6EDC060078C949 /* LegacyUserScene.h */,
+				639E17142D6EDC060078C949 /* LegacyUserScene.cpp */,
+				639E17152D6EDC060078C949 /* TemplateScene.h */,
+				639E17162D6EDC060078C949 /* TemplateScene.cpp */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -310,43 +433,83 @@
 			name = mac;
 			sourceTree = "<group>";
 		};
+		637757602D71B966006C8D68 /* Helpshift */ = {
+			isa = PBXGroup;
+			children = (
+				637757792D71B99B006C8D68 /* HelpshiftX.xcframework */,
+				637757652D71B982006C8D68 /* Classes */,
+				6377576E2D71B982006C8D68 /* iOS */,
+			);
+			path = Helpshift;
+			sourceTree = "<group>";
+		};
+		637757652D71B982006C8D68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				631661762D801D9E00DE1C19 /* HelpshiftUserLoginFailureReason.h */,
+				637757612D71B982006C8D68 /* HelpshiftCocos2dx.h */,
+				637757622D71B982006C8D68 /* HelpshiftEvent.h */,
+				637757632D71B982006C8D68 /* HelpshiftLog.h */,
+			);
+			name = Classes;
+			path = "../../../../../../sdkx-cocos2dx/Classes";
+			sourceTree = "<group>";
+		};
+		6377576E2D71B982006C8D68 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				637757662D71B982006C8D68 /* HelpshiftCocos2dx.mm */,
+				637757672D71B982006C8D68 /* HelpshiftCocos2dxDelegate.h */,
+				637757682D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm */,
+				637757692D71B982006C8D68 /* HelpshiftLog.mm */,
+				6377576A2D71B982006C8D68 /* HelpshiftProactiveConfigCollector.h */,
+				6377576B2D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm */,
+				6377576C2D71B982006C8D68 /* HelpshiftUtil.h */,
+				6377576D2D71B982006C8D68 /* HelpshiftUtil.mm */,
+			);
+			name = iOS;
+			path = "../../../../../../sdkx-cocos2dx/iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* SDKXCococsExample-mobile */ = {
+		1D6058900D05DD3D006BFB54 /* HelpshiftDemoCocos3x-mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SDKXCococsExample-mobile" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelpshiftDemoCocos3x-mobile" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				639E17472D6EDDC90078C949 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				1AC6FB25180E99E1004C840B /* PBXTargetDependency */,
 			);
-			name = "SDKXCococsExample-mobile";
+			name = "HelpshiftDemoCocos3x-mobile";
 			productName = iphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* SDKXCococsExample-mobile.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* HelpshiftDemoCocos3x-mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5087E73D17EB910900C73F5D /* SDKXCococsExample-desktop */ = {
+		5087E73D17EB910900C73F5D /* HelpshiftDemoCocos3x-desktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "SDKXCococsExample-desktop" */;
+			buildConfigurationList = 5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "HelpshiftDemoCocos3x-desktop" */;
 			buildPhases = (
 				5087E74817EB910900C73F5D /* Resources */,
 				5087E75617EB910900C73F5D /* Sources */,
 				5087E75C17EB910900C73F5D /* Frameworks */,
+				639E174A2D6EDDCD0078C949 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				1AC6FB16180E9959004C840B /* PBXTargetDependency */,
 			);
-			name = "SDKXCococsExample-desktop";
+			name = "HelpshiftDemoCocos3x-desktop";
 			productName = iphone;
-			productReference = 5087E76F17EB910900C73F5D /* SDKXCococsExample-desktop.app */;
+			productReference = 5087E76F17EB910900C73F5D /* HelpshiftDemoCocos3x-desktop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -357,7 +520,7 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SDKXCococsExample" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelpshiftDemoCocos3x" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -377,8 +540,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* SDKXCococsExample-mobile */,
-				5087E73D17EB910900C73F5D /* SDKXCococsExample-desktop */,
+				1D6058900D05DD3D006BFB54 /* HelpshiftDemoCocos3x-mobile */,
+				5087E73D17EB910900C73F5D /* HelpshiftDemoCocos3x-desktop */,
 			);
 		};
 /* End PBXProject section */
@@ -420,6 +583,12 @@
 				1AF87B891F6F781D007BE51C /* LaunchScreenBackground.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				1AF87B881F6F781D007BE51C /* LaunchScreen.storyboard in Resources */,
+				639E17572D6EDE2D0078C949 /* bg.png in Resources */,
+				639E17582D6EDE2D0078C949 /* unchecked-50.png in Resources */,
+				639E17592D6EDE2D0078C949 /* bgfull.png in Resources */,
+				639E175A2D6EDE2D0078C949 /* checked.png in Resources */,
+				639E175B2D6EDE2D0078C949 /* unchecked.png in Resources */,
+				639E175C2D6EDE2D0078C949 /* whitebg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +597,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
+				639E17512D6EDE2D0078C949 /* bg.png in Resources */,
+				639E17522D6EDE2D0078C949 /* unchecked-50.png in Resources */,
+				639E17532D6EDE2D0078C949 /* bgfull.png in Resources */,
+				639E17542D6EDE2D0078C949 /* checked.png in Resources */,
+				639E17552D6EDE2D0078C949 /* unchecked.png in Resources */,
+				639E17562D6EDE2D0078C949 /* whitebg.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
@@ -448,6 +623,18 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				6377576F2D71B982006C8D68 /* HelpshiftCocos2dx.mm in Sources */,
+				637757702D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm in Sources */,
+				637757712D71B982006C8D68 /* HelpshiftUtil.mm in Sources */,
+				637757722D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm in Sources */,
+				637757732D71B982006C8D68 /* HelpshiftLog.mm in Sources */,
+				639E17172D6EDC060078C949 /* CocosUIHelpers.cpp in Sources */,
+				631661992D82B7EE00DE1C19 /* WKWebView+Inspectable.m in Sources */,
+				639E17182D6EDC060078C949 /* IdentityUserScene.cpp in Sources */,
+				639E17192D6EDC060078C949 /* LegacyUserScene.cpp in Sources */,
+				639E171A2D6EDC060078C949 /* TemplateScene.cpp in Sources */,
+				639E171B2D6EDC060078C949 /* DropdownMenu.cpp in Sources */,
+				639E17442D6EDD970078C949 /* iOSHelper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +643,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				639E171C2D6EDC060078C949 /* CocosUIHelpers.cpp in Sources */,
+				639E171D2D6EDC060078C949 /* IdentityUserScene.cpp in Sources */,
+				631661982D82B7EE00DE1C19 /* WKWebView+Inspectable.m in Sources */,
+				639E171E2D6EDC060078C949 /* LegacyUserScene.cpp in Sources */,
+				639E171F2D6EDC060078C949 /* TemplateScene.cpp in Sources */,
+				637757742D71B982006C8D68 /* HelpshiftCocos2dx.mm in Sources */,
+				637757752D71B982006C8D68 /* HelpshiftCocos2dxDelegate.mm in Sources */,
+				637757762D71B982006C8D68 /* HelpshiftUtil.mm in Sources */,
+				637757772D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm in Sources */,
+				637757782D71B982006C8D68 /* HelpshiftLog.mm in Sources */,
+				639E17202D6EDC060078C949 /* DropdownMenu.cpp in Sources */,
+				639E17432D6EDD970078C949 /* iOSHelper.mm in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
@@ -482,8 +681,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelpshiftDemoCocos3x-mobile.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 75WN78RS4G;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -497,16 +698,29 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-fcxx-modules",
+					"-fmodules",
+					"-DIS_IOS",
+				);
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpshift.demo;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(_COCOS_HEADER_IOS_BEGIN)",
+					"$(_COCOS_HEADER_IOS_END)",
+				);
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
@@ -516,8 +730,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelpshiftDemoCocos3x-mobile.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 75WN78RS4G;
 				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -530,16 +746,29 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-fcxx-modules",
+					"-fmodules",
+					"-DIS_IOS",
+				);
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpshift.demo;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(_COCOS_HEADER_IOS_BEGIN)",
+					"$(_COCOS_HEADER_IOS_END)",
+				);
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
@@ -551,6 +780,9 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75WN78RS4G;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -566,12 +798,25 @@
 					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-fcxx-modules",
+					"-fmodules",
+				);
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpshift.demo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(_COCOS_HEADER_MAC_BEGIN)",
+					"$(_COCOS_HEADER_MAC_END)",
+				);
 			};
 			name = Debug;
 		};
@@ -582,6 +827,9 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75WN78RS4G;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
@@ -596,12 +844,25 @@
 					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-fcxx-modules",
+					"-fmodules",
+				);
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpshift.demo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(_COCOS_HEADER_MAC_BEGIN)",
+					"$(_COCOS_HEADER_MAC_END)",
+				);
 			};
 			name = Release;
 		};
@@ -659,7 +920,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SDKXCococsExample-mobile" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelpshiftDemoCocos3x-mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -668,7 +929,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "SDKXCococsExample-desktop" */ = {
+		5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "HelpshiftDemoCocos3x-desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5087E76D17EB910900C73F5D /* Debug */,
@@ -677,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SDKXCococsExample" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelpshiftDemoCocos3x" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
