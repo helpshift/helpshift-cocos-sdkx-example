@@ -212,7 +212,7 @@
 		6377576B2D71B982006C8D68 /* HelpshiftProactiveConfigCollector.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelpshiftProactiveConfigCollector.mm; sourceTree = "<group>"; };
 		6377576C2D71B982006C8D68 /* HelpshiftUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftUtil.h; sourceTree = "<group>"; };
 		6377576D2D71B982006C8D68 /* HelpshiftUtil.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelpshiftUtil.mm; sourceTree = "<group>"; };
-		637757792D71B99B006C8D68 /* HelpshiftX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HelpshiftX.xcframework; path = "../../../../../../sdkx-cocos2dx/builds/helpshiftx-plugin-cocos2dx-v10.4.0/helpshiftx-cocos/iOS/sdk/HelpshiftX.xcframework"; sourceTree = "<group>"; };
+		637757792D71B99B006C8D68 /* HelpshiftX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HelpshiftX.xcframework; sourceTree = "<group>"; };
 		639E170D2D6EDC060078C949 /* CocosUIHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocosUIHelpers.h; sourceTree = "<group>"; };
 		639E170E2D6EDC060078C949 /* CocosUIHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CocosUIHelpers.cpp; sourceTree = "<group>"; };
 		639E170F2D6EDC060078C949 /* DropdownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownMenu.h; sourceTree = "<group>"; };
@@ -451,8 +451,7 @@
 				637757622D71B982006C8D68 /* HelpshiftEvent.h */,
 				637757632D71B982006C8D68 /* HelpshiftLog.h */,
 			);
-			name = Classes;
-			path = "../../../../../../sdkx-cocos2dx/Classes";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		6377576E2D71B982006C8D68 /* iOS */ = {
@@ -468,7 +467,7 @@
 				6377576D2D71B982006C8D68 /* HelpshiftUtil.mm */,
 			);
 			name = iOS;
-			path = "../../../../../../sdkx-cocos2dx/iOS";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
