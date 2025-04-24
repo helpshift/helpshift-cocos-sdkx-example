@@ -100,7 +100,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
 //    inAppNotificationAppearance["textColor"] = "000000";
 
     config["inAppNotificationAppearance"] = inAppNotificationAppearance;
-//    HelpshiftCocos2dx::install("<platform-id>","<domain>.helpshift.com",config);
+    #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    HelpshiftCocos2dx::install("lenote_platform_20200707094905314-beb0a045c9e4745","lenote.helpshift.com",config);
+    #endif
 
     // turn on display FPS
     // director->setDisplayStats(true);

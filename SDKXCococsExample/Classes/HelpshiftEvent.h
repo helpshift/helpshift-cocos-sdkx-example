@@ -1,0 +1,80 @@
+
+#ifndef HelpshiftEvent_h
+#define HelpshiftEvent_h
+
+#define WIDGET_TOGGLE "widgetToggle"
+#define DATA_SDK_VISIBLE "visible"
+#define CONVERSATION_START "conversationStart"
+#define DATA_MESSAGE "message"
+#define MESSAGE_ADD "messageAdd"
+#define DATA_MESSAGE_TYPE "type"
+#define DATA_MESSAGE_BODY "body"
+#define DATA_MESSAGE_TYPE_ATTACHMENT "attachment"
+#define DATA_MESSAGE_TYPE_TEXT "text"
+#define CSAT_SUBMIT "csatSubmit"
+#define DATA_CSAT_RATING "rating"
+#define DATA_ADDITIONAL_FEEDBACK "additionalFeedback"
+#define CONVERSATION_STATUS "conversationStatus"
+#define DATA_LATEST_ISSUE_ID "latestIssueId"
+#define DATA_LATEST_ISSUE_PUBLISH_ID "latestIssuePublishId"
+#define DATA_IS_ISSUE_OPEN "open"
+#define CONVERSATION_END "conversationEnd"
+#define CONVERSATION_REJECTED "conversationRejected"
+#define CONVERSATION_RESOLVED "conversationResolved"
+#define CONVERSATION_REOPENED "conversationReopened"
+#define SDK_SESSION_STARTED "helpshiftSessionStarted"
+#define SDK_SESSION_ENDED "helpshiftSessionEnded"
+#define RECEIVED_UNREAD_MESSAGE_COUNT "receivedUnreadMessageCount"
+#define DATA_MESSAGE_COUNT "count"
+#define DATA_MESSAGE_COUNT_FROM_CACHE "fromCache"
+
+#define ACTION_CLICKED "userClickOnAction"
+#define DATA_ACTION "actionType"
+#define DATA_ACTION_TYPE "actionData"
+#define DATA_ACTION_TYPE_CALL "call"
+#define DATA_ACTION_TYPE_LINK "link"
+
+#define AGENT_MESSAGE_RECEIVED "agentMessageReceived"
+#define DATA_PUBLISH_ID "publishId"
+#define DATA_CREATED_TIME "createdTs"
+#define DATA_CONTENT_TYPE "contentType"
+#define DATA_FILE_NAME "fileName"
+#define DATA_SIZE "size"
+#define DATA_MESSAGE_TYPE_APP_REVIEW_REQUEST "app_review_request"
+#define DATA_ATTACHMENTS "attachments"
+#define DATA_MESSAGE_TYPE_SCREENSHOT_REQUEST "screenshot_request"
+#define DATA_URL "url"
+
+#define USER_SESSION_EXPIRED "userSessionExpired"
+#define IDENTITY_FEATURE_NOT_ENABLED "identityFeatureNotEnabled"
+#define REFRESH_USER_CREDENTIALS "refreshUserCredentials"
+
+#define MASTER_ATTRIBUTES_VALIDATION_FAILED "masterAttributesValidationFailed"
+#define MASTER_ATTRIBUTES_SYNC_FAILED "masterAttributesSyncFailed"
+#define MASTER_ATTRIBUTES_LIMIT_EXCEEDED "masterAttributesLimitExceeded"
+
+#define APP_ATTRIBUTES_VALIDATION_FAILED "appAttributesValidationFailed"
+#define APP_ATTRIBUTES_LIMIT_EXCEEDED "appAttributesLimitExceeded"
+#define APP_ATTRIBUTES_SYNC_FAILED "appAttributesSyncFailed"
+
+#define IDENTITY_DATA_INVALID "identityDataInvalid"
+#define IDENTITY_DATA_SYNC_FAILED "identityDataSyncFailed"
+#define IDENTITY_DATA_LIMIT_EXCEEDED "identityDataLimitExceeded"
+#define INVALID_IDENTITY_TOKEN "identityTokenInvalid"
+#define IAT_IS_MANDATORY "iatIsMandatory"
+
+
+#define INVALID_VALUE_TYPE "invalidValueType"
+#define INVALID_DATA "invalidData"
+#define EXCEEDED_KEY_LENGTH_LIMIT "exceededKeyLengthLimit"
+#define METADATA_EXCEEDED_KEY_LENGTH_LIMIT "metadataExceededKeyLengthLimit"
+#define EXCEEDED_VALUE_LENGTH_LIMIT "exceededValueLengthLimit"
+#define METADATA_EXCEEDED_VALUE_LENGTH_LIMIT "metadataExceededValueLengthLimit"
+#define EMPTY_DATA "emptyData"
+#define METADATA_EMPTY_KEY_OR_VALUE "metadataEmptyKeyOrValue"
+#define EXCEEDED_COUNT_LIMIT "exceededCountLimit"
+#define METADATA_EXCEEDED_COUNT_LIMIT "metadataExceededCountLimit"
+
+#define ATTRIBUTES_DATA_INVALID "attributesDataInvalid"
+
+#endif /* HelpshiftEvent_h */
