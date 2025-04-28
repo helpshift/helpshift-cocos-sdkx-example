@@ -19,7 +19,7 @@ Sample Cocos project demonstrating the integration of Helpshift Cocos SDK X
 Please follow these steps to build the app:
 * Update your Helpshift App credentials in `SDKXCococsExample/proj.android/app/src/org/cocos2dx/cpp/AppActivity.java` file. 
     * Replace domain name in `<your-domain>.helpshift.com` and appId in `<your-app-android-app-id>` string placeholders in this file.
-    * To get your Helpshift app credentials please check [here](https://developers.helpshift.com/sdkx-cocos2dx/getting-started-android/).
+    * To get your Helpshift app credentials please check [here](https://developers.helpshift.com/sdkx-cocos2dx/getting-started/).
 
 
 
