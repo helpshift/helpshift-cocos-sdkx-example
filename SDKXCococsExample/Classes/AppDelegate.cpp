@@ -101,7 +101,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     config["inAppNotificationAppearance"] = inAppNotificationAppearance;
     #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    HelpshiftCocos2dx::install("lenote_platform_20200707094905314-beb0a045c9e4745","lenote.helpshift.com",config);
+    HelpshiftCocos2dx::install("<platformId>","<domain>",config);
     #endif
 
     // turn on display FPS

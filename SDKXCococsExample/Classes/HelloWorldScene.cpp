@@ -341,6 +341,17 @@ void addConversationSection(Layout *layout) {
     unreadMessageRow->addChild(fromRemoteToggle.first);
     unreadMessageRow->setContentSize(CocosUIHelpers::linearLayoutMarginAdjustedSize(unreadMessageButton->getContentSize()));
     layout->addChild(unreadMessageRow);
+
+    auto pauseInappRow = HBox::create();
+    auto shouldPauseToggle = CocosUIHelpers::createCheckBox("Should Pause");
+    auto pauseInappButton = CocosUIHelpers::createButton("Pause Inapp Notif", [shouldPauseToggle]{
+        bool shouldPause = shouldPauseToggle.second->isSelected();
+        HelloWorld::pauseDisplayOfInAppNotification(shouldPause);
+    });
+    pauseInappRow->addChild(pauseInappButton);
+    pauseInappRow->addChild(shouldPauseToggle.first);
+    pauseInappRow->setContentSize(CocosUIHelpers::linearLayoutMarginAdjustedSize(pauseInappButton->getContentSize()));
+    layout->addChild(pauseInappRow);
 }
 
 void addHelpcenterSection(Layout *layout) {
@@ -535,6 +546,10 @@ void HelloWorld::getUnreadMessageCount(bool shouldFetchFromServer) {
 
 void HelloWorld::handleProactiveLink(const char *proactiveLink) {
     HelpshiftCocos2dx::handleProactiveLink(proactiveLink);
+}
+
+void HelloWorld::pauseDisplayOfInAppNotification(bool shouldPause) {
+    HelpshiftCocos2dx::pauseDisplayOfInAppNotification(shouldPause);
 }
 
 void HelloWorld::addDebugLog(const std::string& level, const std::string& tag, const std::string& message) {

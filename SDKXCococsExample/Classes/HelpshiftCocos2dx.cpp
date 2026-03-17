@@ -165,6 +165,47 @@ void HelpshiftCocos2dx::registerPushToken(const char *deviceToken) {
 }
 
 /**
+  * Pause/un-pause display of in-app notification according to flag shouldPause
+  * @param shouldPause : if (true)  -> pause in -app notifications
+                         if (false) -> un-pause in-app notifications
+  */
+void HelpshiftCocos2dx::pauseDisplayOfInAppNotification(bool shouldPauseInAppNotification) {
+    cocos2d::JniMethodInfo minfo;
+    bool hasMethod = cocos2d::JniHelper::getStaticMethodInfo(minfo,
+                                                            "com/helpshift/HelpshiftCocosBridge",
+                                                            "pauseDisplayOfInAppNotification",
+                                                            "(Z)V");
+    if (hasMethod) {
+        minfo.env->CallStaticVoidMethod(minfo.classID,
+                                        minfo.methodID,
+                                        shouldPauseInAppNotification);
+    }
+}
+
+/**
+ * \brief Sets default resources for proactive push notifications.
+ * @param configMap : map of key and resource file name as value
+ */
+
+void HelpshiftCocos2dx::setProactivePushNotificationDefaults(cocos2d::ValueMap& config) {
+    if (config.empty()) {
+        return;
+    }
+    cocos2d::JniMethodInfo minfo;
+    bool hasMethod = cocos2d::JniHelper::getStaticMethodInfo(minfo,
+                                                             "com/helpshift/HelpshiftCocosBridge",
+                                                             "setProactivePushNotificationDefaults",
+                                                             "(Ljava/util/HashMap;)V");
+    if (hasMethod) {
+        jobject configMap = HelpshiftUtil::parseValueMapToHashMap(minfo.env,
+                                                                        config);
+        minfo.env->CallStaticVoidMethod(minfo.classID,
+                                        minfo.methodID,
+                                        configMap);
+    }
+}
+
+/**
  * Fetch unread messages count from the server, get count via delegate.
  * @param shouldFetchFromServer : if (true) - fetch count from server,
  *                                if (false) return locally stored count.

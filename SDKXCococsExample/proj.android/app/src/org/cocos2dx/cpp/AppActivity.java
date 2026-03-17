@@ -32,6 +32,7 @@ import android.view.WindowManager;
 import com.helpshift.HelpshiftCocosBridge;
 
 import java.util.HashMap;
+import com.helpshift.util.SdkURLs;
 
 public class AppActivity extends Cocos2dxActivity {
 
@@ -54,9 +55,10 @@ public class AppActivity extends Cocos2dxActivity {
             lp.layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
             getWindow().setAttributes(lp);
         }
+
         // DO OTHER INITIALIZATION BELOW
         HashMap<String, Object> config = new HashMap<>();
         config.put("enableLogging", true);
-        HelpshiftCocosBridge.install(this, "<platform-id>", "<domain>.helpshift.com", config);
+        HelpshiftCocosBridge.install(this, "<platform-id>", "<domain-name>", config);
     }
 }

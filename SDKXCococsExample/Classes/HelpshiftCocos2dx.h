@@ -8,7 +8,7 @@
 
 #include "cocos2d.h"
 
-/** DO NOT CHANGE OR EDIT THIS VERSION!! **/ #define HS_COCOS_SDKX_VERSION "10.4.0"
+/** DO NOT CHANGE OR EDIT THIS VERSION!! **/ #define HS_COCOS_SDKX_VERSION "10.5.0"
 #define HS_SDK_TYPE "sdkx-cocos2dx"
 
 enum class HSAuthenticationFailureReason{
@@ -125,6 +125,13 @@ public:
      */
     static void handleProactiveLink(const char *proactiveLink);
 
+    // Proactive outbound support APIs
+    /**
+     * \brief pause in-app notifications
+     * @param shouldPauseInAppNotification: bool
+     */
+    static void pauseDisplayOfInAppNotification(bool shouldPauseInAppNotification);
+
     // Tracking APIs
     /**
      * \brief Breadcrumbs can be used to track events or end-user actions.
@@ -161,6 +168,9 @@ public:
     // Push Notifications
     static void handlePushNotification(cocos2d::ValueMap& notificationData);
     static void registerPushToken(const char *deviceToken);
+    /*! \brief Sets default resources for proactive push notifications.
+     */
+    static void setProactivePushNotificationDefaults(cocos2d::ValueMap& config);
 #endif
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
@@ -171,17 +181,13 @@ public:
      */
     static void install(const char *appID,const char *domain, cocos2d::ValueMap& config);
 
-    /**
-     * \brief pause push notifications
-     * @param shouldPauseInAppNotification: bool
-     */
-    static void pauseDisplayOfInAppNotification(bool shouldPauseInAppNotification);
-
     // Push Notifications
     /**
      * \brief handle notification
+     * @deprecated C++ handling of Helpshift push notifications is deprecated. Implement push handling in AppController.m using `(UNNotificationPresentationOptions) handleForegroundNotification:(NSDictionary *)userInfo` or `handleBackgroundNotificationClick:(NSDictionary *)userInfo`
      * @param notificationData: ValueMap
      */
+    __attribute__((deprecated("C++ handling of Helpshift push notifications is deprecated. Implement push handling in AppController.m using `(UNNotificationPresentationOptions) handleForegroundNotification:(NSDictionary *)userInfo` or `handleBackgroundNotificationClick:(NSDictionary *)userInfo`")))
     static bool handlePushNotification(cocos2d::ValueMap& notificationData,bool isAppLaunch);
 #endif
 };

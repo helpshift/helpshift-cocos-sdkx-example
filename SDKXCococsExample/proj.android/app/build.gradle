@@ -39,7 +39,7 @@ android {
                 }
             }
         }
-
+        ndkVersion '20.1.5948944'
         ndk {
             abiFilters = []
             abiFilters.addAll(PROP_APP_ABI.split(':').collect{it as String})
