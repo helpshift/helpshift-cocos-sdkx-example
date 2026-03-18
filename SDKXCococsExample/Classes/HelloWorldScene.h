@@ -45,6 +45,7 @@ public:
     static void getUnreadMessageCount(bool shouldFetchFromServer);
     static void clearAnonymousUserOnLogin(bool clearUser);
     static void setLanguage(const char *language);
+    static void pauseDisplayOfInAppNotification(bool shouldPause);
 
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);

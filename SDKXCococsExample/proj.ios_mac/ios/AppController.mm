@@ -124,11 +124,10 @@ static AppDelegate s_sharedApplication;
     //Open Proactive Link from notification when app is launch from notification.
     if([notification.request.content.userInfo[@"origin"] isEqualToString:@"helpshift"]) {
         NSLog(@"userNotificationCenter:willPresentNotification for helpshift origin");
-        [Helpshift handleNotificationWithUserInfoDictionary:notification.request.content.userInfo
-                                                isAppLaunch:NO];
-        completionHandler(UNNotificationPresentationOptionNone);
+        [Helpshift handleForegroundNotification:notification.request.content.userInfo
+                          withCompletionHandler:completionHandler];
     } else {
-        completionHandler(UNNotificationPresentationOptionAlert);
+        completionHandler(UNNotificationPresentationOptionList | UNNotificationPresentationOptionBanner);
     }
 }
 
@@ -137,8 +136,8 @@ static AppDelegate s_sharedApplication;
           withCompletionHandler:(void (^)(void))completionHandler {
     if([response.notification.request.content.userInfo[@"origin"] isEqualToString:@"helpshift"]) {
         NSLog(@"userNotificationCenter:willPresentNotification for helpshift origin");
-        [Helpshift handleNotificationWithUserInfoDictionary:response.notification.request.content.userInfo
-                                                isAppLaunch:YES];
+        [Helpshift handleBackgroundNotificationClick:response.notification.request.content.userInfo
+                               withCompletionHandler:completionHandler];
     } else {
         NSString* proactiveLink = response.notification.request.content.userInfo[@"helpshift_proactive_link"];
         if (proactiveLink != nil) {
@@ -146,6 +145,14 @@ static AppDelegate s_sharedApplication;
         }
     }
     completionHandler();
+}
+
+- (void) application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    if([userInfo[@"origin"] isEqualToString:@"helpshift"]) {
+        NSLog(@"application:didReceiveRemoteNotification: for helpshift origin.");
+        [Helpshift handleSilentBackgroundNotification:userInfo
+                                withCompletionHandler:completionHandler];
+    }
 }
 
 @end

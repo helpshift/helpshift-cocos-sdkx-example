@@ -184,6 +184,20 @@ public class HelpshiftCocosBridge {
     }
 
     /**
+     * SDK X shouldPauseInAppNotification bridge
+     */
+    public static void pauseDisplayOfInAppNotification(boolean shouldPauseInAppNotification) {
+        Helpshift.shouldPauseInAppNotification(shouldPauseInAppNotification);
+    }
+
+    /**
+     * SDK X setProactivePushNotificationDefaults bridge
+     */
+    public static void setProactivePushNotificationDefaults(HashMap<String, Object> configMap) {
+        Helpshift.setProactivePushNotificationDefaults(configMap);
+    }
+
+    /**
      * SDK X loginWithIdentity bridge
      */
     public static void loginWithIdentity(String identityJwt, HashMap<String, Object> loginConfig){
